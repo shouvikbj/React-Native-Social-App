@@ -1,0 +1,242 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.socialapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:5:1-61
+13-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:5:18-58
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:6:2-77
+14-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:6:19-75
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.54.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/da73bf2eac3b39390219acede4507127/flipper-0.54.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.54.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/da73bf2eac3b39390219acede4507127/flipper-0.54.0/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-firebase_auth] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+16-->[:react-native-firebase_auth] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- TODO(salakar) Not sure if this should be part of the package manifest or leave to users app manifest code? -->
+17-->[:react-native-firebase_auth] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+17-->[:react-native-firebase_auth] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:react-native-firebase_storage] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
+18-->[:react-native-firebase_storage] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-77
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:8:5-27:19
+22        android:name="com.socialapp.MainApplication"
+22-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:9:7-38
+23        android:allowBackup="false"
+23-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:13:7-34
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/9a4658afade2e57b9a640b6674c28496/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:11:7-41
+27        android:label="@string/app_name"
+27-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:10:7-39
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:12:7-52
+29        android:theme="@style/AppTheme"
+29-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:14:7-38
+30        android:usesCleartextTraffic="true" >
+30-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/debug/AndroidManifest.xml:7:18-53
+31        <activity
+31-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:15:7-25:18
+32            android:name="com.socialapp.MainActivity"
+32-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:16:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+33-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:18:9-86
+34            android:label="@string/app_name"
+34-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:17:9-41
+35            android:launchMode="singleTask"
+35-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:19:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:20:9-51
+37            <intent-filter>
+37-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:21:9-24:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:22:13-65
+38-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:22:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:23:13-73
+40-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:23:23-70
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+43-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:26:7-84
+43-->/home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/android/app/src/main/AndroidManifest.xml:26:17-81
+44
+45        <provider
+45-->[:react-native-image-picker] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+46            android:name="com.imagepicker.FileProvider"
+46-->[:react-native-image-picker] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+47            android:authorities="com.socialapp.provider"
+47-->[:react-native-image-picker] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+48            android:exported="false"
+48-->[:react-native-image-picker] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+49            android:grantUriPermissions="true" >
+49-->[:react-native-image-picker] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+50            <meta-data
+50-->[:react-native-image-picker] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->[:react-native-image-picker] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+52                android:resource="@xml/provider_paths" />
+52-->[:react-native-image-picker] /home/shouvik/React Native Bootcamp/lcorn-master_lyst8851/lcorn-master/socialApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+53        </provider>
+54
+55        <activity
+55-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+56            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+56-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+57            android:excludeFromRecents="true"
+57-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+60        <!--
+61            Service handling Google Sign-In user revocation. For apps that do not integrate with
+62            Google Sign-In, this service will never be started.
+63        -->
+64        <service
+64-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+65            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+65-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+66            android:exported="true"
+66-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+67            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+67-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+68            android:visibleToInstantApps="true" />
+68-->[com.google.android.gms:play-services-auth:18.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+69
+70        <activity
+70-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
+71            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+71-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:25:13-85
+72            android:excludeFromRecents="true"
+72-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:26:13-46
+73            android:exported="true"
+73-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:27:13-36
+74            android:launchMode="singleTask"
+74-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:28:13-44
+75            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+75-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:29:13-102
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:30:13-72
+77
+78        <service
+78-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:33:9-39:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:34:13-84
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:19.3.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/030b0ee2885b073194e6e2a87b613c9a/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+81            android:exported="false" >
+81-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:35:13-37
+82            <meta-data
+82-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:36:13-38:85
+83                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+83-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:37:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-auth:19.4.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/1ca69443cd8465e24be8f43e29bdafce/firebase-auth-19.4.0/AndroidManifest.xml:38:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-storage:19.2.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/d7b1a18abf26e789eee7f2fbe22d38eb/firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+86                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+86-->[com.google.firebase:firebase-storage:19.2.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/d7b1a18abf26e789eee7f2fbe22d38eb/firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-storage:19.2.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/d7b1a18abf26e789eee7f2fbe22d38eb/firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-database:19.5.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/e6d8c9e8cf60271e1df07c0df1f77b1b/firebase-database-19.5.0/AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+89-->[com.google.firebase:firebase-database:19.5.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/e6d8c9e8cf60271e1df07c0df1f77b1b/firebase-database-19.5.0/AndroidManifest.xml:33:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-database:19.5.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/e6d8c9e8cf60271e1df07c0df1f77b1b/firebase-database-19.5.0/AndroidManifest.xml:34:17-82
+91            <meta-data
+91-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/156df2eac9fa9df701bb6de8b807d36c/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+92                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+92-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/156df2eac9fa9df701bb6de8b807d36c/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/156df2eac9fa9df701bb6de8b807d36c/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-installations:16.3.2] /home/shouvik/.gradle/caches/transforms-2/files-2.1/791c9e28d0d90147a5dca4bd0d3e1256/firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+95                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+95-->[com.google.firebase:firebase-installations:16.3.2] /home/shouvik/.gradle/caches/transforms-2/files-2.1/791c9e28d0d90147a5dca4bd0d3e1256/firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-installations:16.3.2] /home/shouvik/.gradle/caches/transforms-2/files-2.1/791c9e28d0d90147a5dca4bd0d3e1256/firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+97        </service>
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:17.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/c4fb6b3249f446fdb0995f0c1cd7339f/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:17.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/c4fb6b3249f446fdb0995f0c1cd7339f/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:17.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/c4fb6b3249f446fdb0995f0c1cd7339f/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:17.1.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/c4fb6b3249f446fdb0995f0c1cd7339f/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+103
+104        <provider
+104-->[com.google.firebase:firebase-common:19.3.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/030b0ee2885b073194e6e2a87b613c9a/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+105            android:name="com.google.firebase.provider.FirebaseInitProvider"
+105-->[com.google.firebase:firebase-common:19.3.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/030b0ee2885b073194e6e2a87b613c9a/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+106            android:authorities="com.socialapp.firebaseinitprovider"
+106-->[com.google.firebase:firebase-common:19.3.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/030b0ee2885b073194e6e2a87b613c9a/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:19.3.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/030b0ee2885b073194e6e2a87b613c9a/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:19.3.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/030b0ee2885b073194e6e2a87b613c9a/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:19.3.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/030b0ee2885b073194e6e2a87b613c9a/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+110
+111        <receiver
+111-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+112            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+112-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+114            android:exported="false" >
+114-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+115        </receiver>
+116
+117        <service
+117-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+118            android:name="com.google.android.gms.measurement.AppMeasurementService"
+118-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+120            android:exported="false" />
+120-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+121        <service
+121-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+122            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+122-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[com.google.android.gms:play-services-measurement:17.6.0] /home/shouvik/.gradle/caches/transforms-2/files-2.1/6ad602824357b915c6075deaa31ff0c7/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:17.1.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/0cd6f03fe857ae9d030f9e6b7b128a45/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:17.1.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/0cd6f03fe857ae9d030f9e6b7b128a45/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:17.1.1] /home/shouvik/.gradle/caches/transforms-2/files-2.1/0cd6f03fe857ae9d030f9e6b7b128a45/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+130    </application>
+131
+132</manifest>
